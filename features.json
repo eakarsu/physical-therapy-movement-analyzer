@@ -665,58 +665,19 @@
       "AIAutomatepharmaceutical",
       "AIDentalPracticeManager",
       "AIHealthcareBillingOptimizer",
-      "AIHealthcareCompanion",
       "AIIndustrialIoTAnomalyDetector",
-      "AIMentalHealthCompanion",
       "AIPharmacyOperationsManager",
       "AIVeterinaryClinicManager"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/acceleratedrug",
       "healthcare-life-sciences/dental-practice-manager",
-      "healthcare-life-sciences/elder-care-companion",
       "healthcare-life-sciences/hipaa-training-compliance-auditor",
       "healthcare-life-sciences/industrial-io-t-anomaly-detector",
-      "healthcare-life-sciences/patient-triagefor-er",
       "healthcare-life-sciences/pharmacy-operations-manager",
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIHealthcareCompanion",
-        "path": "server/routes/medicalHistory.js:111",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIHealthcareCompanion",
-        "path": "server/routes/medications.js:115",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIHealthcareCompanion",
-        "path": "server/routes/skinScans.js:115",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIHealthcareCompanion",
-        "path": "server/routes/symptomAnalyzer.js:15",
-        "route": "/analyze",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIHealthcareCompanion",
-        "path": "server/routes/visionTests.js:111",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
       {
         "kind": "api",
         "sourceProject": "AIPharmacyOperationsManager",
@@ -758,34 +719,6 @@
         "path": "backend/routes/rootcause.js:86",
         "route": "/:id/analyze",
         "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMentalHealthCompanion",
-        "path": "server/routes/gratitude.js:91",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/elder-care-companion"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMentalHealthCompanion",
-        "path": "server/routes/journal.js:118",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/elder-care-companion"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMentalHealthCompanion",
-        "path": "server/routes/moods.js:149",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/elder-care-companion"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIMentalHealthCompanion",
-        "path": "server/routes/sleep.js:85",
-        "route": "/analyze",
-        "originApp": "healthcare-life-sciences/elder-care-companion"
       },
       {
         "kind": "api",
@@ -943,6 +876,32 @@
     ]
   },
   {
+    "name": "Analyze Movement Form",
+    "canonicalKey": "analyze form movement",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-analysis?tool=analyze-movement"
+    ],
+    "sourceProjects": [
+      "AIPhysicalTherapyMovementAnalyzer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/pages/AIAnalysis.jsx:14",
+        "route": "/ai-analysis?tool=analyze-movement",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
     "name": "Analyze Pain",
     "canonicalKey": "analyze pain",
     "aliases": [],
@@ -964,6 +923,32 @@
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
         "path": "backend/routes/ai.js:555",
         "route": "/analyze-pain",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
+    "name": "Analyze Pain Patterns",
+    "canonicalKey": "analyze pain pattern",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-analysis?tool=analyze-pain"
+    ],
+    "sourceProjects": [
+      "AIPhysicalTherapyMovementAnalyzer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/pages/AIAnalysis.jsx:122",
+        "route": "/ai-analysis?tool=analyze-pain",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
     ]
@@ -1451,9 +1436,11 @@
     "canonicalKey": "assess recovery",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-analysis?tool=assess-recovery",
       "/assess-recovery"
     ],
     "sourceProjects": [
@@ -1463,6 +1450,13 @@
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/pages/AIAnalysis.jsx:49",
+        "route": "/ai-analysis?tool=assess-recovery",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
@@ -5412,9 +5406,11 @@
     "canonicalKey": "generate hep",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-analysis?tool=generate-hep",
       "/generate-hep"
     ],
     "sourceProjects": [
@@ -5424,6 +5420,13 @@
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/pages/AIAnalysis.jsx:85",
+        "route": "/ai-analysis?tool=generate-hep",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
@@ -5438,9 +5441,11 @@
     "canonicalKey": "generate note soap",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-analysis?tool=generate-soap",
       "/generate-soap-note"
     ],
     "sourceProjects": [
@@ -5450,6 +5455,13 @@
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/pages/AIAnalysis.jsx:104",
+        "route": "/ai-analysis?tool=generate-soap",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
@@ -5464,9 +5476,11 @@
     "canonicalKey": "generate plan treatment",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-analysis?tool=generate-treatment-plan",
       "/generate-treatment-plan"
     ],
     "sourceProjects": [
@@ -5476,6 +5490,13 @@
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/pages/AIAnalysis.jsx:31",
+        "route": "/ai-analysis?tool=generate-treatment-plan",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
@@ -7394,8 +7415,6 @@
       "AIRemotePatientMonitoring",
       "AIVeterinaryClinicManager",
       "AIpoweredembryo",
-      "ai-personalized-medicine",
-      "alzheimers-research-care-operations-hub",
       "dental",
       "healthcare",
       "physicalThreapy"
@@ -7585,55 +7604,6 @@
         "path": "frontend/src/pages/Patients.js",
         "route": "/Patients",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/App.js:139",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/App.js:35",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/pages/Dashboard.js:34",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "ai-personalized-medicine",
-        "path": "frontend/src/App.tsx:71",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "ai-personalized-medicine",
-        "path": "frontend/src/components/Dashboard.tsx:39",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "ai-personalized-medicine",
-        "path": "frontend/src/components/Layout.tsx:7",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alzheimers-research-care-operations-hub",
-        "path": "src/app.js:199",
-        "route": "/api/patients",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
       },
       {
         "kind": "page",
@@ -7944,6 +7914,32 @@
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
         "path": "backend/routes/ai.js:615",
         "route": "/predict-outcomes",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
+    "name": "Predict Treatment Outcomes",
+    "canonicalKey": "outcome predict treatment",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-analysis?tool=predict-outcomes"
+    ],
+    "sourceProjects": [
+      "AIPhysicalTherapyMovementAnalyzer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/pages/AIAnalysis.jsx:139",
+        "route": "/ai-analysis?tool=predict-outcomes",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
     ]
@@ -8296,9 +8292,11 @@
     "canonicalKey": "exercise recommend",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-analysis?tool=recommend-exercises",
       "/recommend-exercises"
     ],
     "sourceProjects": [
@@ -8308,6 +8306,13 @@
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/pages/AIAnalysis.jsx:68",
+        "route": "/ai-analysis?tool=recommend-exercises",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
@@ -8576,27 +8581,6 @@
         "path": "frontend/src/pages/Reports.js",
         "route": "/Reports",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/App.js:154",
-        "route": "/reports",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/App.js:50",
-        "route": "/reports",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/pages/Dashboard.js:47",
-        "route": "/reports",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
       },
       {
         "kind": "page",
@@ -11203,13 +11187,11 @@
       "/treatment-plans"
     ],
     "sourceProjects": [
-      "AIDentalPracticeManager",
       "AIPhysicalTherapyMovementAnalyzer",
       "ai-personalized-medicine"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
-      "healthcare-life-sciences/dental-practice-manager",
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
@@ -11219,13 +11201,6 @@
         "path": "backend/routes/ai.js:101",
         "route": "/treatment-plan",
         "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/TreatmentPlans.js",
-        "route": "/TreatmentPlans",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "navigation",

@@ -11,12 +11,12 @@
     "AIVeterinaryClinicManager",
     "physicalThreapy"
   ],
-  "featureCount": 229,
-  "candidateFeatureCount": 302,
+  "featureCount": 232,
+  "candidateFeatureCount": 305,
   "eliminatedSimilarFeatures": 73,
-  "evidenceCount": 1001,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "evidenceCount": 989,
+  "aiPageCount": 8,
+  "sourceAIPageCount": 8,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 0,
     "seededRows": 0
   },
-  "visibleFeatureCount": 158,
-  "featureVisibilityMode": "source-backed-fallback"
+  "visibleFeatureCount": 8,
+  "featureVisibilityMode": "seeded-or-ai"
 }
