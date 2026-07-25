@@ -1,5 +1,121 @@
 [
   {
+    "name": "Aftercare",
+    "canonicalKey": "aftercare",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/aftercare",
+      "/ai/aftercare"
+    ],
+    "sourceProjects": [
+      "AIVeterinaryClinicManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIVeterinaryClinicManager",
+        "path": "server/routes/ai.js:42",
+        "route": "/aftercare",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIVeterinaryClinicManager",
+        "path": "client/src/App.jsx:107",
+        "route": "/ai/aftercare",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIVeterinaryClinicManager",
+        "path": "client/src/components/Sidebar.jsx:19",
+        "route": "/ai/aftercare",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
+    "name": "Aftercare Generator Producing Discharge Instructio",
+    "canonicalKey": "aftercare discharge generator instructio producing",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIVeterinaryClinicManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIVeterinaryClinicManager",
+        "path": "client/src/components/Sidebar.jsx:25",
+        "route": "",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
+    "name": "Agentic Hep Execution",
+    "canonicalKey": "agentic execution hep",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPhysicalTherapyMovementAnalyzer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/components/Sidebar.jsx:24",
+        "route": "",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
+    "name": "Agentic Patient Followup",
+    "canonicalKey": "agentic followup patient",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/agentic-patient-followup"
+    ],
+    "sourceProjects": [
+      "AIOptometryAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIOptometryAssistant",
+        "path": "backend/src/routes/ai.js:588",
+        "route": "/agentic-patient-followup",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
     "name": "AI Aftercare",
     "canonicalKey": "aftercare ai",
     "aliases": [],
@@ -532,122 +648,6 @@
     ]
   },
   {
-    "name": "Aftercare",
-    "canonicalKey": "aftercare",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/aftercare",
-      "/ai/aftercare"
-    ],
-    "sourceProjects": [
-      "AIVeterinaryClinicManager"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/physical-therapy-movement-analyzer"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/ai.js:44",
-        "route": "/aftercare",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIVeterinaryClinicManager",
-        "path": "client/src/App.jsx:107",
-        "route": "/ai/aftercare",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIVeterinaryClinicManager",
-        "path": "client/src/components/Sidebar.jsx:19",
-        "route": "/ai/aftercare",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      }
-    ]
-  },
-  {
-    "name": "Aftercare Generator Producing Discharge Instructio",
-    "canonicalKey": "aftercare discharge generator instructio producing",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "AIVeterinaryClinicManager"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/physical-therapy-movement-analyzer"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIVeterinaryClinicManager",
-        "path": "client/src/components/Sidebar.jsx:25",
-        "route": "",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      }
-    ]
-  },
-  {
-    "name": "Agentic Hep Execution",
-    "canonicalKey": "agentic execution hep",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "AIPhysicalTherapyMovementAnalyzer"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/physical-therapy-movement-analyzer"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "frontend/src/components/Sidebar.jsx:24",
-        "route": "",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      }
-    ]
-  },
-  {
-    "name": "Agentic Patient Followup",
-    "canonicalKey": "agentic followup patient",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/agentic-patient-followup"
-    ],
-    "sourceProjects": [
-      "AIOptometryAssistant"
-    ],
-    "consolidatedFromApps": [
-      "healthcare-life-sciences/physical-therapy-movement-analyzer"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:583",
-        "route": "/agentic-patient-followup",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      }
-    ]
-  },
-  {
     "name": "Analyze",
     "canonicalKey": "analyze",
     "aliases": [],
@@ -682,27 +682,6 @@
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/drugReviews.js:71",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/interactions.js:61",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/inventory.js:76",
-        "route": "/ai/analyze",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
       {
         "kind": "api",
         "sourceProject": "AIHealthcareCompanion",
@@ -740,6 +719,34 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/drugReviews.js:71",
+        "route": "/:id/analyze",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/interactions.js:61",
+        "route": "/:id/analyze",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/inventory.js:76",
+        "route": "/ai/analyze",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatepharmaceutical",
+        "path": "backend/src/routes/aiFeatures.js:167",
+        "route": "/compliance-trends/analyze",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIIndustrialIoTAnomalyDetector",
         "path": "backend/routes/anomalies.js:97",
         "route": "/:id/analyze",
@@ -751,13 +758,6 @@
         "path": "backend/routes/rootcause.js:86",
         "route": "/:id/analyze",
         "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIAutomatepharmaceutical",
-        "path": "backend/src/routes/aiFeatures.js:167",
-        "route": "/compliance-trends/analyze",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "api",
@@ -786,6 +786,20 @@
         "path": "server/routes/sleep.js:85",
         "route": "/analyze",
         "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/xrayCv.js:19",
+        "route": "/analyze",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/xrays.js:74",
+        "route": "/:id/analyze",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "api",
@@ -828,20 +842,6 @@
         "path": "server/routes/wellnessReminders.js:46",
         "route": "/analyze",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "backend/routes/xrayCv.js:19",
-        "route": "/analyze",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "backend/routes/xrays.js:74",
-        "route": "/:id/analyze",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "api",
@@ -903,7 +903,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/server.js:232",
+        "path": "backend/src/server.js:243",
         "route": "/api/slides/:id/analyze-image",
         "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
@@ -936,7 +936,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:180",
+        "path": "backend/routes/ai.js:187",
         "route": "/analyze-movement",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -962,7 +962,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:548",
+        "path": "backend/routes/ai.js:555",
         "route": "/analyze-pain",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -988,7 +988,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:107",
+        "path": "backend/src/routes/ai.js:112",
         "route": "/analyze-retinal-scan",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -1040,7 +1040,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:259",
+        "path": "backend/src/routes/ai.js:264",
         "route": "/appointment-optimization",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -1068,7 +1068,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:920",
+        "path": "backend/routes/ai.js:927",
         "route": "/appointment-optimize",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -1091,7 +1091,9 @@
   {
     "name": "Appointments",
     "canonicalKey": "appointment",
-    "aliases": [],
+    "aliases": [
+      "Appointments Page"
+    ],
     "kinds": [
       "model",
       "navigation",
@@ -1099,6 +1101,7 @@
     ],
     "routes": [
       "/Appointments",
+      "/AppointmentsPage",
       "/appointments",
       "/dashboard/appointments",
       "/dashboard/schedule/appointments",
@@ -1150,6 +1153,13 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "frontend/src/pages/AppointmentsPage.jsx",
+        "route": "/AppointmentsPage",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIpoweredembryo",
         "path": "frontend/src/App.jsx:73",
         "route": "appointments",
@@ -1189,6 +1199,13 @@
         "path": "frontend/src/App.js:60",
         "route": "/appointments",
         "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/appointments/page.tsx",
+        "route": "/dashboard/appointments",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "page",
@@ -1296,13 +1313,6 @@
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
       {
-        "kind": "page",
-        "sourceProject": "dental",
-        "path": "app/dashboard/appointments/page.tsx",
-        "route": "/dashboard/appointments",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
         "kind": "model",
         "sourceProject": "healthcare",
         "path": "ios-app/PracticeFlux/Core/Models/Appointment.swift",
@@ -1362,7 +1372,7 @@
   },
   {
     "name": "Appointments By Type",
-    "canonicalKey": "appointments by type",
+    "canonicalKey": "appointment by type",
     "aliases": [],
     "kinds": [
       "api"
@@ -1388,7 +1398,7 @@
   },
   {
     "name": "Appointments Stats",
-    "canonicalKey": "appointments stat",
+    "canonicalKey": "appointment stat",
     "aliases": [],
     "kinds": [
       "api"
@@ -1414,7 +1424,7 @@
   },
   {
     "name": "Appointments Without Appointment",
-    "canonicalKey": "appointment appointments without",
+    "canonicalKey": "appointment without",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -1456,7 +1466,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:309",
+        "path": "backend/routes/ai.js:316",
         "route": "/assess-recovery",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -1509,34 +1519,6 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "AIRemotePatientMonitoring",
-        "path": "frontend/src/App.jsx:66",
-        "route": "/billing",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRemotePatientMonitoring",
-        "path": "frontend/src/components/Layout.jsx:10",
-        "route": "/billing",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRemotePatientMonitoring",
-        "path": "frontend/src/pages/Dashboard.jsx:15",
-        "route": "/billing",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRemotePatientMonitoring",
-        "path": "frontend/src/pages/BillingPage.jsx",
-        "route": "/BillingPage",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIAmbulanceEMSDispatch",
         "path": "client/src/App.jsx:220",
         "route": "/billing",
@@ -1545,14 +1527,14 @@
       {
         "kind": "api",
         "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/server.js:550",
+        "path": "backend/src/server.js:561",
         "route": "/api/billing",
         "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
         "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/server.js:553",
+        "path": "backend/src/server.js:564",
         "route": "/api/billing",
         "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
@@ -1593,6 +1575,34 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "frontend/src/App.jsx:66",
+        "route": "/billing",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "frontend/src/components/Layout.jsx:10",
+        "route": "/billing",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "frontend/src/pages/Dashboard.jsx:15",
+        "route": "/billing",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "frontend/src/pages/BillingPage.jsx",
+        "route": "/BillingPage",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIpoweredembryo",
         "path": "frontend/src/App.jsx:74",
         "route": "billing",
@@ -1618,6 +1628,34 @@
         "path": "frontend/src/App.js:81",
         "route": "/billing",
         "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:141",
+        "route": "/billing",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:80",
+        "route": "/billing",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Billing.js",
+        "route": "/Billing",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Dashboard.js:32",
+        "route": "/billing",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "page",
@@ -1718,34 +1756,6 @@
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
       {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/App.js:141",
-        "route": "/billing",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/App.js:80",
-        "route": "/billing",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/Billing.js",
-        "route": "/Billing",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/Dashboard.js:32",
-        "route": "/billing",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "healthcare",
         "path": "src/components/layout/Sidebar.tsx:68",
@@ -1795,7 +1805,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:285",
+        "path": "backend/src/routes/ai.js:290",
         "route": "/billing-analysis",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -1876,8 +1886,34 @@
     ]
   },
   {
+    "name": "Care Workflow",
+    "canonicalKey": "care workflow",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/care-workflow"
+    ],
+    "sourceProjects": [
+      "physicalThreapy"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "physicalThreapy",
+        "path": "app/care-workflow/page.tsx",
+        "route": "/care-workflow",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
     "name": "Cf Aftercare Generator Producing Discharge Instructions And Follow",
-    "canonicalKey": "aftercare and cf discharge follow generator instructions producing",
+    "canonicalKey": "aftercare and cf discharge follow generator instruction producing",
     "aliases": [],
     "kinds": [
       "page"
@@ -1903,7 +1939,7 @@
   },
   {
     "name": "Cf Aftercare Generator Producing Discharge Instructions And Follow Up Plans",
-    "canonicalKey": "aftercare and cf discharge follow generator instructions plan producing up",
+    "canonicalKey": "aftercare and cf discharge follow generator instruction plan producing up",
     "aliases": [],
     "kinds": [
       "page"
@@ -2110,7 +2146,7 @@
   },
   {
     "name": "Cf Diagnostic Assistant Providing Differential Diagnoses From Symptoms",
-    "canonicalKey": "assistant cf diagnoses diagnostic differential from providing symptom",
+    "canonicalKey": "assistant cf diagnose diagnostic differential from providing symptom",
     "aliases": [],
     "kinds": [
       "page"
@@ -2136,7 +2172,7 @@
   },
   {
     "name": "Cf Diagnostic Assistant Providing Differential Diagnoses From Symptoms Labs",
-    "canonicalKey": "assistant cf diagnoses diagnostic differential from labs providing symptoms",
+    "canonicalKey": "assistant cf diagnose diagnostic differential from labs providing symptom",
     "aliases": [],
     "kinds": [
       "page"
@@ -2248,7 +2284,7 @@
   },
   {
     "name": "Cf Outbreak Detection Flagging Potential Disease Outbreaks Across",
-    "canonicalKey": "across cf detection disease flagging outbreak outbreaks potential",
+    "canonicalKey": "across cf detection disease flagging outbreak potential",
     "aliases": [],
     "kinds": [
       "page"
@@ -2274,7 +2310,7 @@
   },
   {
     "name": "Cf Outbreak Detection Flagging Potential Disease Outbreaks Across Patient",
-    "canonicalKey": "across cf detection disease flagging outbreak outbreaks patient potential",
+    "canonicalKey": "across cf detection disease flagging outbreak patient potential",
     "aliases": [],
     "kinds": [
       "page"
@@ -2549,7 +2585,7 @@
   },
   {
     "name": "Cf Wellness Reminder Automation By Species Age",
-    "canonicalKey": "age automation by cf reminder species wellness",
+    "canonicalKey": "age automation by cf reminder specy wellness",
     "aliases": [],
     "kinds": [
       "page"
@@ -2680,7 +2716,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:311",
+        "path": "backend/src/routes/ai.js:316",
         "route": "/contact-lens-recommendation",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -2742,8 +2778,7 @@
       "/DashboardPage",
       "/api/dashboard",
       "/dashboard",
-      "/stats/dashboard",
-      "dashboard"
+      "/stats/dashboard"
     ],
     "sourceProjects": [
       "AIAcceleratedrug",
@@ -2781,7 +2816,6 @@
       "coaching-wellness",
       "dental",
       "healthcare",
-      "ihss_scheduling",
       "industrial-capabilities-in-space",
       "physicalThreapy",
       "tetrascience"
@@ -2800,90 +2834,6 @@
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/App.js:83",
-        "route": "/dashboard",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/pages/Dashboard.js",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIHospitalBedResourceOptimizer",
-        "path": "frontend/src/components/Sidebar.js:10",
-        "route": "/dashboard",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "frontend/src/pages/Dashboard.js",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "ai-prior-authorization-operations-hub",
-        "path": "frontend/src/app/(protected)/dashboard/page.tsx",
-        "route": "/dashboard",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIHealthcareCompanion",
-        "path": "client/src/pages/Dashboard.jsx",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPatientTriageforER",
-        "path": "backend/server.js:190",
-        "route": "/api/dashboard",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPatientTriageforER",
-        "path": "frontend/src/pages/Dashboard.js",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIPredictdisease",
-        "path": "frontend/src/components/Navbar.jsx:6",
-        "route": "",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPredictdisease",
-        "path": "frontend/src/pages/Dashboard.jsx",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRemotePatientMonitoring",
-        "path": "backend/src/server.js:69",
-        "route": "/api/dashboard",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIRemotePatientMonitoring",
-        "path": "frontend/src/pages/Dashboard.jsx",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
       {
         "kind": "page",
         "sourceProject": "AIAmbulanceEMSDispatch",
@@ -2928,6 +2878,167 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIHealthcareCompanion",
+        "path": "client/src/pages/Dashboard.jsx",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/server.js:195",
+        "route": "/api/dashboard",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/pages/Dashboard.js",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPredictdisease",
+        "path": "frontend/src/components/Navbar.jsx:6",
+        "route": "",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPredictdisease",
+        "path": "frontend/src/pages/Dashboard.jsx",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "backend/src/server.js:71",
+        "route": "/api/dashboard",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "frontend/src/pages/Dashboard.jsx",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.jsx:83",
+        "route": "/dashboard",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.jsx",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:10",
+        "route": "/dashboard",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/app/(protected)/dashboard/page.tsx",
+        "route": "/dashboard",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/pages/Dashboard.jsx",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatepharmaceutical",
+        "path": "backend/src/routes/documents.js:143",
+        "route": "/stats/dashboard",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIAutomatepharmaceutical",
+        "path": "frontend/src/components/Navbar.jsx:10",
+        "route": "",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutomatepharmaceutical",
+        "path": "frontend/src/pages/Dashboard.jsx",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/components/Sidebar.jsx:31",
+        "route": "",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/Dashboard.jsx",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:3",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:70",
+        "route": "/dashboard",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:6",
+        "route": "/dashboard",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/pages/DashboardPage.js",
+        "route": "/DashboardPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIIndustrialIoTAnomalyDetector",
         "path": "frontend/src/App.jsx:76",
         "route": "/dashboard",
@@ -2957,107 +3068,16 @@
       {
         "kind": "page",
         "sourceProject": "industrial-capabilities-in-space",
-        "path": "frontend/src/App.tsx:57",
-        "route": "dashboard",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "industrial-capabilities-in-space",
         "path": "frontend/src/pages/Dashboard.tsx",
         "route": "/Dashboard",
         "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "tetrascience",
-        "path": "frontend/src/components/Sidebar.tsx:31",
-        "route": "",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "tetrascience",
-        "path": "frontend/src/pages/Dashboard.tsx",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/pages/Dashboard.js",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIResearchLiteratureAgent",
-        "path": "frontend/src/components/Sidebar.js:3",
-        "route": "",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "ai-personalized-medicine",
-        "path": "frontend/src/App.tsx:65",
-        "route": "/dashboard",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "ai-personalized-medicine",
-        "path": "frontend/src/components/Layout.tsx:5",
-        "route": "/dashboard",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIResearchLiteratureAgent",
-        "path": "frontend/src/pages/DashboardPage.js",
-        "route": "/DashboardPage",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAcceleratedrug",
-        "path": "frontend/src/pages/Dashboard.jsx",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAutomatepharmaceutical",
-        "path": "backend/src/routes/documents.js:143",
-        "route": "/stats/dashboard",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/components/Navbar.js:10",
-        "route": "",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAutomatepharmaceutical",
-        "path": "frontend/src/pages/Dashboard.js",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "client/src/components/Sidebar.jsx:31",
-        "route": "",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
-        "path": "client/src/pages/Dashboard.jsx",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/acceleratedrug"
+        "sourceProject": "tetrascience",
+        "path": "backend/src/routes/assayWorkflow.ts:7",
+        "route": "/dashboard",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
       },
       {
         "kind": "page",
@@ -3089,13 +3109,6 @@
       },
       {
         "kind": "page",
-        "sourceProject": "ihss_scheduling",
-        "path": "frontend/src/pages/Dashboard.js",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIElderCareCompanion",
         "path": "frontend/src/pages/Dashboard.js",
         "route": "/Dashboard",
@@ -3121,6 +3134,27 @@
         "path": "client/src/pages/Dashboard.jsx",
         "route": "/Dashboard",
         "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalLabCaseManager",
+        "path": "backend/server.js:147",
+        "route": "/api/dashboard",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Dashboard.js",
+        "route": "/Dashboard",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/page.tsx",
+        "route": "/dashboard",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "api",
@@ -3201,29 +3235,8 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIDentalLabCaseManager",
-        "path": "backend/server.js:142",
-        "route": "/api/dashboard",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/Dashboard.js",
-        "route": "/Dashboard",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "dental",
-        "path": "app/dashboard/page.tsx",
-        "route": "/dashboard",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIHIPAATrainingComplianceAuditor",
-        "path": "backend/src/server.js:147",
+        "path": "backend/src/server.js:98",
         "route": "/api/dashboard",
         "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
       },
@@ -3237,7 +3250,7 @@
       {
         "kind": "page",
         "sourceProject": "AIHIPAATrainingComplianceAuditor",
-        "path": "frontend/src/App.jsx:1633",
+        "path": "frontend/src/App.jsx:1619",
         "route": "/dashboard",
         "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
       },
@@ -3293,6 +3306,42 @@
     ]
   },
   {
+    "name": "Deliveries",
+    "canonicalKey": "delivery",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/deliveries",
+      "/cases/:id/deliveries"
+    ],
+    "sourceProjects": [
+      "AIVeterinaryClinicManager",
+      "AIpoweredembryo"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/authoritative.js:12",
+        "route": "/cases/:id/deliveries",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVeterinaryClinicManager",
+        "path": "server/routes/careWorkflow.js:6",
+        "route": "/:id/deliveries",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
     "name": "Diagnose",
     "canonicalKey": "diagnose",
     "aliases": [],
@@ -3314,14 +3363,14 @@
       {
         "kind": "api",
         "sourceProject": "AIIndustrialIoTAnomalyDetector",
-        "path": "backend/routes/vibrationAcousticAI.js:38",
+        "path": "backend/routes/vibrationAcousticAI.js:37",
         "route": "/diagnose",
         "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
       },
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:357",
+        "path": "backend/src/routes/ai.js:362",
         "route": "/diagnose",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -3382,7 +3431,7 @@
       {
         "kind": "api",
         "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/ai.js:19",
+        "path": "server/routes/ai.js:17",
         "route": "/diagnostic-assistant",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -3527,6 +3576,20 @@
     "evidence": [
       {
         "kind": "page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/patients/[id]/edit/page.tsx",
+        "route": "/dashboard/patients/[id]/edit",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/treatments/[id]/edit/page.tsx",
+        "route": "/dashboard/treatments/[id]/edit",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
         "sourceProject": "physicalThreapy",
         "path": "app/appointments/[id]/edit/page.tsx",
         "route": "/appointments/[id]/edit",
@@ -3559,20 +3622,6 @@
         "path": "app/sessions/[id]/edit/page.tsx",
         "route": "/sessions/[id]/edit",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "dental",
-        "path": "app/dashboard/patients/[id]/edit/page.tsx",
-        "route": "/dashboard/patients/[id]/edit",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "dental",
-        "path": "app/dashboard/treatments/[id]/edit/page.tsx",
-        "route": "/dashboard/treatments/[id]/edit",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
       }
     ]
   },
@@ -3622,7 +3671,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:1054",
+        "path": "backend/routes/ai.js:1061",
         "route": "/exercise-difficulty-adapt",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -3792,7 +3841,7 @@
   },
   {
     "name": "Exercises Without Exercise",
-    "canonicalKey": "exercise exercises without",
+    "canonicalKey": "exercise without",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -3860,7 +3909,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:187",
+        "path": "backend/src/routes/ai.js:192",
         "route": "/frame-recommendation",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -3886,7 +3935,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:480",
+        "path": "backend/src/routes/ai.js:485",
         "route": "/frame-style-suggest",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -3934,7 +3983,7 @@
   },
   {
     "name": "Gap Appointments Without Appointment",
-    "canonicalKey": "appointment appointments gap without",
+    "canonicalKey": "appointment gap without",
     "aliases": [
       "Gap Appointments Without Appointment Page"
     ],
@@ -3977,7 +4026,7 @@
   },
   {
     "name": "Gap Appointments Without Schedule Page",
-    "canonicalKey": "appointments gap schedule without",
+    "canonicalKey": "appointment gap schedule without",
     "aliases": [
       "Gap Appointments Without Schedule"
     ],
@@ -4013,7 +4062,7 @@
   },
   {
     "name": "Gap Exercises Without Exercise",
-    "canonicalKey": "exercise exercises gap without",
+    "canonicalKey": "exercise gap without",
     "aliases": [
       "Gap Exercises Without Exercise Page"
     ],
@@ -4056,7 +4105,7 @@
   },
   {
     "name": "Gap Frames Without Frame Page",
-    "canonicalKey": "frame frames gap without",
+    "canonicalKey": "frame gap without",
     "aliases": [
       "Gap Frames Without Frame"
     ],
@@ -4092,7 +4141,7 @@
   },
   {
     "name": "Gap Limited Ehr Integration Some Integration Stubs But Page",
-    "canonicalKey": "but ehr gap integration limited some stubs",
+    "canonicalKey": "but ehr gap integration limited some stub",
     "aliases": [
       "Gap Limited Ehr Integration Some Integration Stubs But"
     ],
@@ -4128,7 +4177,7 @@
   },
   {
     "name": "Gap Limited Ehr Medical Records Integration Only Stub",
-    "canonicalKey": "ehr gap integration limited medical only records stub",
+    "canonicalKey": "ehr gap integration limited medical only record stub",
     "aliases": [
       "Gap Limited Ehr Medical Records Integration Only Stub Page"
     ],
@@ -4396,7 +4445,7 @@
   },
   {
     "name": "Gap No Frontend Pages Listed Per Tsv Page",
-    "canonicalKey": "frontend gap listed no pages per tsv",
+    "canonicalKey": "frontend gap listed no page per tsv",
     "aliases": [
       "Gap No Frontend Pages Listed Per Tsv"
     ],
@@ -4557,7 +4606,7 @@
   },
   {
     "name": "Gap No Manufacturer Integrations For Inventory Auto Page",
-    "canonicalKey": "auto for gap integrations inventory manufacturer no",
+    "canonicalKey": "auto for gap integration inventory manufacturer no",
     "aliases": [
       "Gap No Manufacturer Integrations For Inventory Auto"
     ],
@@ -4634,7 +4683,7 @@
   },
   {
     "name": "Gap No Notifications Module Grep 0",
-    "canonicalKey": "0 gap grep no notifications",
+    "canonicalKey": "0 gap grep no notification",
     "aliases": [],
     "kinds": [
       "page"
@@ -4692,7 +4741,7 @@
   },
   {
     "name": "Gap No Notifications Module Grep0 Page",
-    "canonicalKey": "gap grep0 no notifications",
+    "canonicalKey": "gap grep0 no notification",
     "aliases": [],
     "kinds": [
       "page"
@@ -4736,7 +4785,7 @@
   },
   {
     "name": "Gap No Notifications Subsystem Despite Sms Email Being",
-    "canonicalKey": "being despite email gap no notifications sms subsystem",
+    "canonicalKey": "being despite email gap no notification sms subsystem",
     "aliases": [],
     "kinds": [
       "page"
@@ -4762,7 +4811,7 @@
   },
   {
     "name": "Gap No Notifications Subsystem Despite Sms Email Being Mentioned",
-    "canonicalKey": "being despite email gap mentioned no notifications sms subsystem",
+    "canonicalKey": "being despite email gap mentioned no notification sms subsystem",
     "aliases": [],
     "kinds": [
       "page"
@@ -5123,7 +5172,7 @@
   },
   {
     "name": "Gap No Webhooks For Appointment Events",
-    "canonicalKey": "appointment event for gap no webhooks",
+    "canonicalKey": "appointment event for gap no webhook",
     "aliases": [],
     "kinds": [
       "page"
@@ -5163,10 +5212,10 @@
     ]
   },
   {
-    "name": "Gap No Webhooks For Lab Imaging System Events",
+    "name": "Gap No Webhooks For Lab Imaging System Events Page",
     "canonicalKey": "event for gap imaging lab no webhook",
     "aliases": [
-      "Gap No Webhooks For Lab Imaging System Events Page"
+      "Gap No Webhooks For Lab Imaging System Events"
     ],
     "kinds": [
       "page"
@@ -5243,7 +5292,7 @@
   },
   {
     "name": "Gap Patients Without Patient",
-    "canonicalKey": "gap patient patients without",
+    "canonicalKey": "gap patient without",
     "aliases": [
       "Gap Patients Without Patient Page"
     ],
@@ -5324,7 +5373,7 @@
   },
   {
     "name": "Gap Recalls Without Recall Page",
-    "canonicalKey": "gap recall recalls without",
+    "canonicalKey": "gap recall without",
     "aliases": [
       "Gap Recalls Without Recall"
     ],
@@ -5378,7 +5427,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:424",
+        "path": "backend/routes/ai.js:431",
         "route": "/generate-hep",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -5404,7 +5453,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:495",
+        "path": "backend/routes/ai.js:502",
         "route": "/generate-soap-note",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -5430,7 +5479,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:236",
+        "path": "backend/routes/ai.js:243",
         "route": "/generate-treatment-plan",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -5657,15 +5706,36 @@
     "evidence": [
       {
         "kind": "page",
+        "sourceProject": "AIPredictdisease",
+        "path": "frontend/src/App.jsx:68",
+        "route": "/inventory",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPredictdisease",
+        "path": "frontend/src/components/Navbar.jsx:13",
+        "route": "/inventory",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPredictdisease",
+        "path": "frontend/src/pages/Dashboard.jsx:73",
+        "route": "/inventory",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/App.js:98",
+        "path": "frontend/src/App.jsx:98",
         "route": "/inventory",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
         "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/pages/Dashboard.js:16",
+        "path": "frontend/src/pages/Dashboard.jsx:16",
         "route": "/inventory",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
@@ -5693,37 +5763,16 @@
       {
         "kind": "page",
         "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/pages/InventoryDetail.js",
+        "path": "frontend/src/pages/InventoryDetail.jsx",
         "route": "/InventoryDetail",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
         "sourceProject": "AIBloodBankDonationCenter",
-        "path": "frontend/src/pages/InventoryList.js",
+        "path": "frontend/src/pages/InventoryList.jsx",
         "route": "/InventoryList",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPredictdisease",
-        "path": "frontend/src/App.jsx:68",
-        "route": "/inventory",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPredictdisease",
-        "path": "frontend/src/components/Navbar.jsx:13",
-        "route": "/inventory",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPredictdisease",
-        "path": "frontend/src/pages/Dashboard.jsx:73",
-        "route": "/inventory",
-        "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
         "kind": "page",
@@ -5745,6 +5794,34 @@
         "path": "frontend/src/pages/Dashboard.jsx:27",
         "route": "/inventory",
         "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:143",
+        "route": "/inventory",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:82",
+        "route": "/inventory",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Dashboard.js:33",
+        "route": "/inventory",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Inventory.js",
+        "route": "/Inventory",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "page",
@@ -5801,34 +5878,6 @@
         "path": "client/src/pages/Inventory.jsx",
         "route": "/Inventory",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/App.js:143",
-        "route": "/inventory",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/App.js:82",
-        "route": "/inventory",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/Dashboard.js:33",
-        "route": "/inventory",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/Inventory.js",
-        "route": "/Inventory",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
       }
     ]
   },
@@ -5878,7 +5927,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:231",
+        "path": "backend/src/routes/ai.js:236",
         "route": "/inventory-optimization",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -5906,7 +5955,7 @@
       {
         "kind": "api",
         "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/ai.js:123",
+        "path": "server/routes/ai.js:121",
         "route": "/lab-result-interpret",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -5969,7 +6018,7 @@
   },
   {
     "name": "Limited Ehr Medical Records Integration Only Stub",
-    "canonicalKey": "ehr integration limited medical only records stub",
+    "canonicalKey": "ehr integration limited medical only record stub",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -6085,23 +6134,23 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/reports.js:93",
-        "route": "/low-stock",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
         "path": "backend/routes/inventory.js:99",
         "route": "/alerts/low-stock",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIVeterinaryClinicManager",
+        "path": "server/routes/reports.js:93",
+        "route": "/low-stock",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
     ]
   },
   {
     "name": "Medications Dosing",
-    "canonicalKey": "dosing medications",
+    "canonicalKey": "dosing medication",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -6178,6 +6227,27 @@
         "originApp": "healthcare-life-sciences/elder-care-companion"
       },
       {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/portal.js:52",
+        "route": "/messages",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/portal.js:70",
+        "route": "/messages",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/messages/page.tsx",
+        "route": "/dashboard/messages",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
         "kind": "navigation",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
         "path": "frontend/src/components/Sidebar.jsx:19",
@@ -6225,27 +6295,6 @@
         "path": "components/layout/DashboardLayout.tsx:52",
         "route": "/messages",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "backend/routes/portal.js:52",
-        "route": "/messages",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "backend/routes/portal.js:70",
-        "route": "/messages",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "dental",
-        "path": "app/dashboard/messages/page.tsx",
-        "route": "/dashboard/messages",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "api",
@@ -6319,17 +6368,17 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "physicalThreapy",
-        "path": "prisma.config.ts:9",
-        "route": "prisma/migrations",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "page",
         "sourceProject": "dental",
         "path": "prisma.config.ts:9",
         "route": "prisma/migrations",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "physicalThreapy",
+        "path": "prisma.config.ts:9",
+        "route": "prisma/migrations",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
     ]
   },
@@ -6427,7 +6476,7 @@
       {
         "kind": "api",
         "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/ai.js:188",
+        "path": "server/routes/ai.js:186",
         "route": "/multi-clinic-summary",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -6586,7 +6635,7 @@
   },
   {
     "name": "No Notifications Module Grep 0",
-    "canonicalKey": "0 grep no notifications",
+    "canonicalKey": "0 grep no notification",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -6619,7 +6668,7 @@
   },
   {
     "name": "No Notifications Subsystem Despite Sms Email Bein",
-    "canonicalKey": "bein despite email no notifications sms subsystem",
+    "canonicalKey": "bein despite email no notification sms subsystem",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -6739,7 +6788,7 @@
   },
   {
     "name": "No Webhooks For Appointment Events",
-    "canonicalKey": "appointment event for no webhooks",
+    "canonicalKey": "appointment event for no webhook",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -6763,7 +6812,7 @@
   },
   {
     "name": "No Webhooks For Referral Events",
-    "canonicalKey": "event for no referral webhooks",
+    "canonicalKey": "event for no referral webhook",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -6807,7 +6856,7 @@
       {
         "kind": "api",
         "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/ai.js:102",
+        "path": "server/routes/ai.js:100",
         "route": "/outbreak-detection",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -7040,7 +7089,7 @@
       {
         "kind": "api",
         "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/ai.js:167",
+        "path": "server/routes/ai.js:165",
         "route": "/owner-self-service-faq",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -7240,7 +7289,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:985",
+        "path": "backend/routes/ai.js:992",
         "route": "/patient-dropout-predict",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -7306,7 +7355,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:411",
+        "path": "backend/src/routes/ai.js:416",
         "route": "/patient-risk-score",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -7315,7 +7364,9 @@
   {
     "name": "Patients",
     "canonicalKey": "patient",
-    "aliases": [],
+    "aliases": [
+      "Patients Page"
+    ],
     "kinds": [
       "api",
       "navigation",
@@ -7323,6 +7374,7 @@
     ],
     "routes": [
       "/Patients",
+      "/PatientsPage",
       "/api/patients",
       "/dashboard/patients",
       "/patients",
@@ -7343,6 +7395,7 @@
       "AIVeterinaryClinicManager",
       "AIpoweredembryo",
       "ai-personalized-medicine",
+      "alzheimers-research-care-operations-hub",
       "dental",
       "healthcare",
       "physicalThreapy"
@@ -7360,43 +7413,78 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "AIHospitalBedResourceOptimizer",
-        "path": "frontend/src/components/Dashboard.js:164",
-        "route": "patients",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIHospitalBedResourceOptimizer",
-        "path": "frontend/src/components/Sidebar.js:12",
-        "route": "/dashboard/patients",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "frontend/src/App.js:110",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "frontend/src/App.js:64",
         "route": "/patients",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "frontend/src/pages/Dashboard.js:50",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "frontend/src/components/Layout.js:8",
         "route": "/patients",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPharmacyOperationsManager",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "frontend/src/pages/Dashboard.js:7",
+        "route": "/patients",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/server.js:168",
+        "route": "/api/patients",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/server.js:179",
+        "route": "/api/patients",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "frontend/src/App.js:123",
+        "route": "/patients",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "frontend/src/App.js:49",
+        "route": "/patients",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "frontend/src/pages/Dashboard.js:12",
+        "route": "/patients",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPathologySlideAnalyzer",
         "path": "frontend/src/pages/Patients.js",
         "route": "/Patients",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "frontend/src/pages/PatientsPage.js",
+        "route": "/PatientsPage",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
         "sourceProject": "AIPatientTriageforER",
-        "path": "backend/server.js:75",
+        "path": "backend/server.js:80",
         "route": "/api/patients",
         "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
@@ -7451,87 +7539,52 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AIDrugInteractionChecker",
-        "path": "frontend/src/App.js:64",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/pages/PatientsPage.js",
+        "route": "/PatientsPage",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
         "kind": "page",
-        "sourceProject": "AIDrugInteractionChecker",
-        "path": "frontend/src/components/Layout.js:8",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "frontend/src/pages/PatientsPage.jsx",
+        "route": "/PatientsPage",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
         "kind": "page",
-        "sourceProject": "AIDrugInteractionChecker",
-        "path": "frontend/src/pages/Dashboard.js:7",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/server.js:157",
-        "route": "/api/patients",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/server.js:168",
-        "route": "/api/patients",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Dashboard.js:164",
+        "route": "patients",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "frontend/src/App.js:123",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:12",
+        "route": "/dashboard/patients",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "frontend/src/App.js:49",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:110",
         "route": "/patients",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "frontend/src/pages/Dashboard.js:12",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:50",
         "route": "/patients",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPathologySlideAnalyzer",
+        "sourceProject": "AIPharmacyOperationsManager",
         "path": "frontend/src/pages/Patients.js",
         "route": "/Patients",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIpoweredembryo",
-        "path": "frontend/src/App.jsx:60",
-        "route": "patients",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIpoweredembryo",
-        "path": "frontend/src/pages/Dashboard.jsx:29",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIpoweredembryo",
-        "path": "frontend/src/pages/Patients.jsx",
-        "route": "/Patients",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
@@ -7557,7 +7610,7 @@
       {
         "kind": "page",
         "sourceProject": "ai-personalized-medicine",
-        "path": "frontend/src/App.tsx:66",
+        "path": "frontend/src/App.tsx:71",
         "route": "/patients",
         "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
       },
@@ -7571,9 +7624,79 @@
       {
         "kind": "page",
         "sourceProject": "ai-personalized-medicine",
-        "path": "frontend/src/components/Layout.tsx:6",
+        "path": "frontend/src/components/Layout.tsx:7",
         "route": "/patients",
         "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alzheimers-research-care-operations-hub",
+        "path": "src/app.js:199",
+        "route": "/api/patients",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/PatientsPage.js",
+        "route": "/PatientsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIpoweredembryo",
+        "path": "frontend/src/App.jsx:60",
+        "route": "patients",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIpoweredembryo",
+        "path": "frontend/src/pages/Dashboard.jsx:29",
+        "route": "/patients",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIpoweredembryo",
+        "path": "frontend/src/pages/Patients.jsx",
+        "route": "/Patients",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:134",
+        "route": "/patients",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:73",
+        "route": "/patients",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Dashboard.js:28",
+        "route": "/patients",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Patients.js",
+        "route": "/Patients",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "dental",
+        "path": "app/dashboard/patients/page.tsx",
+        "route": "/dashboard/patients",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "page",
@@ -7682,41 +7805,6 @@
       },
       {
         "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/App.js:134",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/App.js:73",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/Dashboard.js:28",
-        "route": "/patients",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/Patients.js",
-        "route": "/Patients",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "dental",
-        "path": "app/dashboard/patients/page.tsx",
-        "route": "/dashboard/patients",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIHealthcareBillingOptimizer",
         "path": "frontend/src/App.js:105",
         "route": "/patients",
@@ -7742,12 +7830,19 @@
         "path": "src/app/dashboard/patients/page.tsx",
         "route": "/dashboard/patients",
         "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/pages/PatientsPage.js",
+        "route": "/PatientsPage",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
       }
     ]
   },
   {
     "name": "Patients Without Patient",
-    "canonicalKey": "patient patients without",
+    "canonicalKey": "patient without",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -7791,7 +7886,7 @@
       {
         "kind": "api",
         "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/ai.js:144",
+        "path": "server/routes/ai.js:142",
         "route": "/pharmacy-interaction-check",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -7839,17 +7934,17 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:608",
-        "route": "/predict-outcomes",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
         "path": "backend/routes/outcomePredict.js:58",
         "route": "/outcome-predict",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "backend/routes/ai.js:615",
+        "route": "/predict-outcomes",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
     ]
   },
@@ -7874,7 +7969,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:730",
+        "path": "backend/routes/ai.js:737",
         "route": "/prescribe-exercises",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -7907,7 +8002,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:146",
+        "path": "backend/src/routes/ai.js:151",
         "route": "/prescription-trends",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -8106,7 +8201,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:458",
+        "path": "backend/src/routes/ai.js:463",
         "route": "/recall-impact-assess",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -8133,20 +8228,6 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "AIOptometryAssistant",
-        "path": "frontend/src/App.jsx:2924",
-        "route": "/recalls",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIOptometryAssistant",
-        "path": "frontend/src/App.jsx:302",
-        "route": "/recalls",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "page",
         "sourceProject": "AIDentalPracticeManager",
         "path": "frontend/src/App.js:139",
         "route": "/recalls",
@@ -8158,6 +8239,20 @@
         "path": "frontend/src/App.js:78",
         "route": "/recalls",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIOptometryAssistant",
+        "path": "frontend/src/App.jsx:2924",
+        "route": "/recalls",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIOptometryAssistant",
+        "path": "frontend/src/App.jsx:302",
+        "route": "/recalls",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
     ]
   },
@@ -8216,7 +8311,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:362",
+        "path": "backend/routes/ai.js:369",
         "route": "/recommend-exercises",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -8333,7 +8428,9 @@
   {
     "name": "Reports",
     "canonicalKey": "report",
-    "aliases": [],
+    "aliases": [
+      "Reports Page"
+    ],
     "kinds": [
       "api",
       "navigation",
@@ -8341,6 +8438,7 @@
     ],
     "routes": [
       "/Reports",
+      "/ReportsPage",
       "/api/reports",
       "/dashboard/reports",
       "/reports"
@@ -8368,25 +8466,46 @@
     ],
     "evidence": [
       {
-        "kind": "page",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "frontend/src/App.js:117",
-        "route": "/reports",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/server.js:399",
+        "route": "/api/reports",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/server.js:402",
+        "route": "/api/reports",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "frontend/src/pages/Dashboard.js:106",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "frontend/src/App.js:129",
         "route": "/reports",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPharmacyOperationsManager",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "frontend/src/App.js:55",
+        "route": "/reports",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "frontend/src/pages/Dashboard.js:18",
+        "route": "/reports",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPathologySlideAnalyzer",
         "path": "frontend/src/pages/Reports.js",
         "route": "/Reports",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "page",
@@ -8431,46 +8550,32 @@
         "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/server.js:388",
-        "route": "/api/reports",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/server.js:391",
-        "route": "/api/reports",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "kind": "page",
+        "sourceProject": "AIRemotePatientMonitoring",
+        "path": "frontend/src/pages/ReportsPage.jsx",
+        "route": "/ReportsPage",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "frontend/src/App.js:129",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:117",
         "route": "/reports",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "frontend/src/App.js:55",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:106",
         "route": "/reports",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "frontend/src/pages/Dashboard.js:18",
-        "route": "/reports",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPathologySlideAnalyzer",
+        "sourceProject": "AIPharmacyOperationsManager",
         "path": "frontend/src/pages/Reports.js",
         "route": "/Reports",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "page",
@@ -8492,6 +8597,34 @@
         "path": "frontend/src/pages/Dashboard.js:47",
         "route": "/reports",
         "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/ReportsPage.js",
+        "route": "/ReportsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:144",
+        "route": "/reports",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:83",
+        "route": "/reports",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/Reports.js",
+        "route": "/Reports",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
       },
       {
         "kind": "page",
@@ -8571,30 +8704,9 @@
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
       {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/App.js:144",
-        "route": "/reports",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/App.js:83",
-        "route": "/reports",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/Reports.js",
-        "route": "/Reports",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "healthcare",
-        "path": "src/components/layout/Sidebar.tsx:127",
+        "path": "src/components/layout/Sidebar.tsx:119",
         "route": "",
         "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
       },
@@ -8609,7 +8721,7 @@
   },
   {
     "name": "Reports Analytics",
-    "canonicalKey": "analytic reports",
+    "canonicalKey": "analytic report",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -8694,17 +8806,17 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/reports.js:70",
-        "route": "/revenue",
-        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIDentalPracticeManager",
         "path": "backend/routes/reports.js:7",
         "route": "/revenue",
         "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIOptometryAssistant",
+        "path": "backend/src/routes/reports.js:70",
+        "route": "/revenue",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
       {
         "kind": "api",
@@ -8763,7 +8875,7 @@
       {
         "kind": "api",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
-        "path": "backend/routes/ai.js:667",
+        "path": "backend/routes/ai.js:674",
         "route": "/rom-calculator",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -8838,8 +8950,7 @@
       "AIPrecisionFermentationProcessOptimizer",
       "AIPredictdisease",
       "AIVeterinaryClinicManager",
-      "AIpoweredembryo",
-      "ihss_scheduling"
+      "AIpoweredembryo"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/acceleratedrug",
@@ -8856,122 +8967,213 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/customFeat01_AgenticComplianceMonitoring.js:84",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/cardiacPrediction.js:15",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/customFeat02_DrugDiversionDetection.js:84",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/communityParamedicine.js:15",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/customFeat03_PatientMedicationSynchronization.js:84",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/demandStream.js:15",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/customFeat04_InsurancePreAuthorizationAutomation.js:84",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/gap_ai_post_hospital_patient_outcome.js:94",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/customFeat05_MedicationTherapyManagementMtm.js:84",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/gap_ai_route_hospital_optimization_traffic.js:94",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_aiadvanced_js_and_airesults_js_exist_but_tsv_shows.js:72",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/gap_ai_staffing_optimization_based_predicted.js:94",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_claims_without_claim.js:72",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/gap_cad_computer_aided_dispatch_system.js:94",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_controlled_without_diversion.js:72",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/gap_ehr_integration_real_time_bed.js:94",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_inventory_without_reorder.js:72",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/gap_outbound_webhooks_inter_agency.js:94",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_limited_ncpdp_integration_integrations_stub_but_no.js:72",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/gap_public_safety_gis_overlay.js:94",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_limited_patient_counseling_tools.js:72",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/gap_scenario_based_training_simulator.js:94",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_mtm_module_exists_but_workflow_depth_unclear.js:72",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/mutualAidOrch.js:15",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_no_insurance_verification_automation.js:72",
+        "sourceProject": "AIAmbulanceEMSDispatch",
+        "path": "server/routes/rapidsosBridge.js:15",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_no_mobile_app_for_pharmacists_on_the_floor.js:72",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "backend/src/routes/drugDatabaseSync.js:10",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_no_real.js:72",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/customFeat01_AiPathologyAssistant.js:92",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_no_webhooks_for_prescription_events.js:72",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/customFeat02_SecondOpinionConsensus.js:92",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPharmacyOperationsManager",
-        "path": "backend/routes/gapFeat_patients_without_adherence.js:72",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/customFeat03_EducationalMode.js:92",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/customFeat04_RegistryIntegration.js:92",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/customFeat05_QualityAssuranceLoop.js:92",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_auto_report_generate.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_limited_rbac_basic_auth_only.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_multi.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_no_dedicated_routes_directory_all_routes_inline_in.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_no_dicom_server_integration_medical_image_standard.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_no_lis_lab_information_system_integration.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_no_multi.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_no_notifications_layer_grep_returned_0_notificatio.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_no_webhooks_for_lab_result_delivery.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_no_whole_slide_image_wsi_viewer_only_stored_images.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/routes/gapFeat_quality_assess.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
       },
       {
         "kind": "api",
@@ -9199,416 +9401,122 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/cardiacPrediction.js:15",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customFeat01_AgenticComplianceMonitoring.js:84",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/communityParamedicine.js:15",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customFeat02_DrugDiversionDetection.js:84",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/demandStream.js:15",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customFeat03_PatientMedicationSynchronization.js:84",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/gap_ai_post_hospital_patient_outcome.js:94",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customFeat04_InsurancePreAuthorizationAutomation.js:84",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/gap_ai_route_hospital_optimization_traffic.js:94",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customFeat05_MedicationTherapyManagementMtm.js:84",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/gap_ai_staffing_optimization_based_predicted.js:94",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_aiadvanced_js_and_airesults_js_exist_but_tsv_shows.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/gap_cad_computer_aided_dispatch_system.js:94",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_claims_without_claim.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/gap_ehr_integration_real_time_bed.js:94",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_controlled_without_diversion.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/gap_outbound_webhooks_inter_agency.js:94",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_inventory_without_reorder.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/gap_public_safety_gis_overlay.js:94",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_limited_ncpdp_integration_integrations_stub_but_no.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/gap_scenario_based_training_simulator.js:94",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_limited_patient_counseling_tools.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/mutualAidOrch.js:15",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_mtm_module_exists_but_workflow_depth_unclear.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIAmbulanceEMSDispatch",
-        "path": "server/routes/rapidsosBridge.js:15",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_no_insurance_verification_automation.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIDrugInteractionChecker",
-        "path": "backend/src/routes/drugDatabaseSync.js:10",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_no_mobile_app_for_pharmacists_on_the_floor.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/customFeat01_AiPathologyAssistant.js:92",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_no_real.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/customFeat02_SecondOpinionConsensus.js:92",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_no_webhooks_for_prescription_events.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/customFeat03_EducationalMode.js:92",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/gapFeat_patients_without_adherence.js:72",
         "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/customFeat04_RegistryIntegration.js:92",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/customFeat05_QualityAssuranceLoop.js:92",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_auto_report_generate.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_limited_rbac_basic_auth_only.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_multi.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_no_dedicated_routes_directory_all_routes_inline_in.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_no_dicom_server_integration_medical_image_standard.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_no_lis_lab_information_system_integration.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_no_multi.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_no_notifications_layer_grep_returned_0_notificatio.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_no_webhooks_for_lab_result_delivery.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_no_whole_slide_image_wsi_viewer_only_stored_images.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIPathologySlideAnalyzer",
-        "path": "backend/src/routes/gapFeat_quality_assess.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/customFeat01_AgenticEmbryoSelection.js:84",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/customFeat02_ComputerVisionEmbryoGrading.js:84",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/customFeat03_ImplantationProbability.js:84",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/customFeat04_GeneticDiseaseScreeningAssistant.js:84",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/customFeat05_CycleProtocolOptimization.js:84",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_ai_route_stubs_ai.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_embryos_without_exposed_embryo.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_genetic.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_lab.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_limited_frontend_pages_15_for_21.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_limited_regulatory_compliance_tracking_depth_cap_c.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_lims_and_ehr_modules_exist_but_real_adapters_not_v.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_no_mobile_app_for_embryologists.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_no_notifications_module_grep_0.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIpoweredembryo",
-        "path": "backend/routes/gapFeat_no_webhooks_for_lab_events.js:72",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_ai_digital_twin_synthetic_control_arm.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_ai_emr_to_protocol_matcher_only_manual_screenin.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_ai_investigator_brochure_summarization.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_ai_patient_friendly_consent_form_generator.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_direct_edc_ctms_ehr_api_client_medidata_veeva_e.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_e_consent_module_with_audit_trail.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_patient_engagement_portal_with_rewards.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_randomization_trial_supply_management_rtsm.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_no_remote_monitoring_televisit_module.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/gap_notification_routes_exist_but_no_sms_email_deliver.js:98",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/outcomePredictor.js:76",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/regulatoryAgent.js:76",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/siteNetworkOptimizer.js:76",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/trialPlatformIntegrations.js:76",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
@@ -9864,6 +9772,209 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_ai_digital_twin_synthetic_control_arm.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_ai_emr_to_protocol_matcher_only_manual_screenin.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_ai_investigator_brochure_summarization.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_ai_patient_friendly_consent_form_generator.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_direct_edc_ctms_ehr_api_client_medidata_veeva_e.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_e_consent_module_with_audit_trail.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_patient_engagement_portal_with_rewards.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_randomization_trial_supply_management_rtsm.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_no_remote_monitoring_televisit_module.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/gap_notification_routes_exist_but_no_sms_email_deliver.js:98",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/outcomePredictor.js:76",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/regulatoryAgent.js:76",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/siteNetworkOptimizer.js:76",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/trialPlatformIntegrations.js:76",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/customFeat01_AgenticEmbryoSelection.js:84",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/customFeat02_ComputerVisionEmbryoGrading.js:84",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/customFeat03_ImplantationProbability.js:84",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/customFeat04_GeneticDiseaseScreeningAssistant.js:84",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/customFeat05_CycleProtocolOptimization.js:84",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_ai_route_stubs_ai.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_embryos_without_exposed_embryo.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_genetic.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_lab.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_limited_frontend_pages_15_for_21.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_limited_regulatory_compliance_tracking_depth_cap_c.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_lims_and_ehr_modules_exist_but_real_adapters_not_v.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_no_mobile_app_for_embryologists.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_no_notifications_module_grep_0.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/gapFeat_no_webhooks_for_lab_events.js:72",
+        "route": "/run",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIAgingInPlaceHomeModificationAssessor",
         "path": "backend/routes/contractorMarketplace.js:15",
         "route": "/run",
@@ -9971,104 +10082,6 @@
         "kind": "api",
         "sourceProject": "AIAgingInPlaceHomeModificationAssessor",
         "path": "backend/routes/roiTracking.js:15",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_frontend_is_minimal_3_pages_vs.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_ai_compliance_violation_early_warning.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_ai_schedule_optimizer.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_ai_turnover_churn_prediction.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_audit_log_ui.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_demand_forecast_model_route_name.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_employee_sentiment_fatigue_scoring.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_incident_root_cause_analyzer.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_mobile_self_service_app.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_multi_tenant_tenant_isolation.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_notifications_push_sms_for_shift.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_reporting_payroll_export_to_adp.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_no_webhooks_external_hris_integrations.js:82",
-        "route": "/run",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/gap_only_one_ai_surface_most_domain.js:82",
         "route": "/run",
         "originApp": "healthcare-life-sciences/coaching-wellness-merged"
       },
@@ -10617,7 +10630,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:525",
+        "path": "backend/src/routes/ai.js:530",
         "route": "/rx-interaction-check",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -10643,7 +10656,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:436",
+        "path": "backend/src/routes/ai.js:441",
         "route": "/schedule-optimization",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -10693,26 +10706,17 @@
       "AIHIPAATrainingComplianceAuditor",
       "AIHospitalBedResourceOptimizer",
       "AIPatientTriageforER",
-      "AIPhysicalTherapyMovementAnalyzer",
-      "ihss_scheduling"
+      "AIPhysicalTherapyMovementAnalyzer"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/acceleratedrug",
       "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
-      "healthcare-life-sciences/coaching-wellness-merged",
       "healthcare-life-sciences/hipaa-training-compliance-auditor",
       "healthcare-life-sciences/patient-triagefor-er",
       "healthcare-life-sciences/pharmacy-operations-manager",
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIHospitalBedResourceOptimizer",
-        "path": "backend/routes/readmissionPrevention.js:15",
-        "route": "/score",
-        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
-      },
       {
         "kind": "api",
         "sourceProject": "AIPatientTriageforER",
@@ -10722,10 +10726,10 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "backend/src/routes/matches.js:55",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/readmissionPrevention.js:15",
         "route": "/score",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       },
       {
         "kind": "api",
@@ -10736,10 +10740,10 @@
       },
       {
         "kind": "api",
-        "sourceProject": "ihss_scheduling",
-        "path": "backend/routes/turnoverRisk.js:20",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "backend/src/routes/matches.js:55",
         "route": "/score",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
       },
       {
         "kind": "api",
@@ -10820,13 +10824,16 @@
   {
     "name": "Sessions",
     "canonicalKey": "session",
-    "aliases": [],
+    "aliases": [
+      "Session"
+    ],
     "kinds": [
       "api",
       "navigation",
       "page"
     ],
     "routes": [
+      "/api/session",
       "/sessions",
       "/telehealth/session",
       "/zoom/session"
@@ -10837,9 +10844,11 @@
       "AIPhysicalTherapyMovementAnalyzer",
       "AIpoweredembryo",
       "ai-prior-authorization-operations-hub",
+      "alzheimers-research-care-operations-hub",
       "physicalThreapy"
     ],
     "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
       "healthcare-life-sciences/elder-care-companion",
       "healthcare-life-sciences/industrial-io-t-anomaly-detector",
       "healthcare-life-sciences/pharmacy-operations-manager",
@@ -10866,6 +10875,13 @@
         "path": "frontend/src/lib/priorAuthNavigation.ts:153",
         "route": "",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alzheimers-research-care-operations-hub",
+        "path": "src/app.js:93",
+        "route": "/api/session",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
       },
       {
         "kind": "api",
@@ -10953,7 +10969,7 @@
   },
   {
     "name": "Species Distribution",
-    "canonicalKey": "distribution species",
+    "canonicalKey": "distribution specy",
     "aliases": [],
     "kinds": [
       "api"
@@ -11205,6 +11221,13 @@
         "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
       },
       {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/TreatmentPlans.js",
+        "route": "/TreatmentPlans",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
         "kind": "navigation",
         "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
         "path": "frontend/src/components/Sidebar.jsx:10",
@@ -11238,38 +11261,26 @@
         "path": "frontend/src/pages/TreatmentPlans.jsx",
         "route": "/TreatmentPlans",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIDentalPracticeManager",
-        "path": "frontend/src/pages/TreatmentPlans.js",
-        "route": "/TreatmentPlans",
-        "originApp": "healthcare-life-sciences/dental-practice-manager"
       }
     ]
   },
   {
     "name": "Treatment Recommendation",
     "canonicalKey": "recommendation treatment",
-    "aliases": [
-      "Treatment Recommendations"
-    ],
+    "aliases": [],
     "kinds": [
       "api",
       "page"
     ],
     "routes": [
       "/ai/treatment-recommendation",
-      "/dashboard/ai/treatment-recommendations",
       "/treatment-recommendation"
     ],
     "sourceProjects": [
       "AIPatientTriageforER",
-      "AIVeterinaryClinicManager",
-      "healthcare"
+      "AIVeterinaryClinicManager"
     ],
     "consolidatedFromApps": [
-      "healthcare-life-sciences/hipaa-training-compliance-auditor",
       "healthcare-life-sciences/patient-triagefor-er",
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
@@ -11284,7 +11295,7 @@
       {
         "kind": "api",
         "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/ai.js:31",
+        "path": "server/routes/ai.js:29",
         "route": "/treatment-recommendation",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -11301,13 +11312,6 @@
         "path": "client/src/components/Sidebar.jsx:18",
         "route": "/ai/treatment-recommendation",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "healthcare",
-        "path": "src/app/dashboard/ai/treatment-recommendations/page.tsx",
-        "route": "/dashboard/ai/treatment-recommendations",
-        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
       }
     ]
   },
@@ -11515,7 +11519,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:208",
+        "path": "backend/src/routes/ai.js:213",
         "route": "/verify-insurance",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -11526,6 +11530,7 @@
     "canonicalKey": "visit",
     "aliases": [],
     "kinds": [
+      "api",
       "page"
     ],
     "routes": [
@@ -11533,12 +11538,28 @@
       "/visits"
     ],
     "sourceProjects": [
-      "AIVeterinaryClinicManager"
+      "AIVeterinaryClinicManager",
+      "ihss_scheduling"
     ],
     "consolidatedFromApps": [
+      "healthcare-life-sciences/coaching-wellness-merged",
       "healthcare-life-sciences/physical-therapy-movement-analyzer"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ihss_scheduling",
+        "path": "backend/routes/care.js:145",
+        "route": "/visits",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ihss_scheduling",
+        "path": "backend/routes/care.js:36",
+        "route": "/visits",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
       {
         "kind": "page",
         "sourceProject": "AIVeterinaryClinicManager",
@@ -11629,7 +11650,7 @@
       {
         "kind": "api",
         "sourceProject": "AIOptometryAssistant",
-        "path": "backend/src/routes/ai.js:331",
+        "path": "backend/src/routes/ai.js:336",
         "route": "/visual-acuity-analysis",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       }
@@ -11730,7 +11751,7 @@
       {
         "kind": "api",
         "sourceProject": "AIVeterinaryClinicManager",
-        "path": "server/routes/ai.js:56",
+        "path": "server/routes/ai.js:54",
         "route": "/wellness-reminder",
         "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
       },
@@ -11752,7 +11773,7 @@
   },
   {
     "name": "Wellness Reminder Automation By Species Age",
-    "canonicalKey": "age automation by reminder species wellness",
+    "canonicalKey": "age automation by reminder specy wellness",
     "aliases": [],
     "kinds": [
       "navigation"
